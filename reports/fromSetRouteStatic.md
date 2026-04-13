@@ -1,4 +1,4 @@
-# Bug Report: Buffer Overflow in Tenda AC18 15.03.34.06 Router
+# Bug Report: Buffer Overflow in Tenda AC18 16.03.34.06 Router
 A buffer overflow vulnerability has been identified in the Tenda AC18 router firmware that allows remote attackers to potentially execute arbitrary code or cause denial of service through malformed HTTP POST requests.
 
 ### Vulnerability Details

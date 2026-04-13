@@ -1,4 +1,4 @@
-# Bug Report: Buffer Overflow in Tenda AC18 15.03.34.06 Router
+# Bug Report: Buffer Overflow in Tenda AC18 16.03.34.06 Router
 
 ### summary
 
