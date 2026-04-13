@@ -31,6 +31,7 @@ Because there are no length checks on the input data, an attacker can supply an 
 import requests
 
 cyclic = 0x100 * b'A'
+host = "192.168.0.1:80"
 
 def exploit_fromSetRouteStatic():
     url = f"http://{host}/goform/SetStaticRouteCfg"
